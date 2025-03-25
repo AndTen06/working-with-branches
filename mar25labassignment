@@ -1,0 +1,29 @@
+1.) From git branch, I got feature-add-player
+2.) The output shows the same branch 
+3.)Now it shows both feature-add-player and test branch
+4.) The branch has now switch to test branch
+5.) From typing git status it now says On branch feature-add-player
+Your branch is up to date with 'origin/feature-add-player'.
+
+nothing to commit, working tree clean
+
+6.) It says   Merge pull request #4 from ProfessorEhksz/feature-add-main
+    
+    Feature add main
+7.) The branch is now back to feature add player
+8.) By doing git status I now have On branch feature-add-player
+Your branch is up to date with 'origin/feature-add-player'.
+
+nothing to commit, working tree clean
+9.) The change now says commit 11c341d84b8631f25485675e02e00155cf2b2f8d 
+10.) git switch test-branch changes the branch to test branch.
+11.) Git log shows erge: 552bf3c f5c4733
+Author: ProfessorEhksz <159807026+ProfessorEhksz@users.noreply.github.com>
+Date:   Mon Mar 24 23:48:36 2025 -0400
+
+    Merge pull request #4 from ProfessorEhksz/feature-add-main
+    
+    Feature add main
+:
+12.) Git Log now shows On branch test-branch
+nothing to commit, working tree clean
